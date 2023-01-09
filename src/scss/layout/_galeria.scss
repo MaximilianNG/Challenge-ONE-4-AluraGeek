@@ -1,0 +1,22 @@
+.galeria {
+    min-width: 100vw;
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__subtitulo {
+        justify-self: flex-start;
+    }
+
+    &__verTodo {
+        margin-left: auto;
+    }
+
+    &__productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

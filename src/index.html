@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SASS-->
+    <link rel="stylesheet" href="./scss/main.scss">
+    <!---->
+
+    <!--Importamos los íconos desde un kit gratuito de Font Awesome-->
+    <script src="https://kit.fontawesome.com/12b91aa229.js" crossorigin="anonymous"></script>
+    <!--Fin de importación-->
+
+    <title>AluraGeek</title>
+</head>
+<body>
+    <div class="container">
+        <section class="container__logoYBoton">
+            <div class="logoYBoton">
+                <img class="logo" src="./assets/logo.png">
+                <button class="botonLogin">Login</button>
+            </div>
+            <div class="search-bar">
+                <button class="search-bar__submit" aria-label="submit search">
+                    <i class="fas fa-search"></i></button>
+                <input type="text" class="search-bar__input" placeholder="Buscar" aria-label="search">
+            </div>
+        </section>
+        <section class="container__banner">
+            <img class="banner__imagen" src="./assets/banner-mobile.png" alt="Banner: una mano sostiene un hongo de plástico con el estilo de los que se encuentran en juegos de Mario">
+            <div class="banner__texto">
+                <h1 class="banner__titulo">Febrero Promocional</h1>
+                <h2 class="banner__subtitulo">Productos seleccionados con 33% de descuento</h2>
+                <button class="banner__boton">Ver consolas</button>
+            </div>
+        </section>
+        <section class="container__galeria">
+            <div class="galeria">
+                <div class="galeria__header">
+                    <h2 class="galeria__subtitulo">Star Wars</h2>
+                    <a href="" class="galeria__verTodo">Ver Todo</a>
+                </div>
+                <div class="galeria__productos">
+                    <div class="card">
+                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
+                        <p class="card__nombre">Producto XYZ</p>
+                        <p class="card__precio">$1500</p>
+                        <a href="" class="card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
+                        <p class="card__nombre">Producto XYZ</p>
+                        <p class="card__precio">$1500</p>
+                        <a href="" class="card__verProducto">Ver Producto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="galeria__header">
+                    <h2 class="galeria__subtitulo">Consolas</h2>
+                    <a href="" class="galeria__verTodo">Ver Todo</a>
+                </div>
+                <div class="galeria__productos">
+                    <div class="card">
+                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
+                        <p class="card__nombre">Producto XYZ</p>
+                        <p class="card__precio">$1500</p>
+                        <a href="" class="card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
+                        <p class="card__nombre">Producto XYZ</p>
+                        <p class="card__precio">$1500</p>
+                        <a href="" class="card__verProducto">Ver Producto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria">
+                <div class="galeria__header">
+                    <h2 class="galeria__subtitulo">Diversos</h2>
+                    <a href="" class="galeria__verTodo">Ver Todo</a>
+                </div>
+                <div class="galeria__productos">
+                    <div class="card">
+                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
+                        <p class="card__nombre">Producto XYZ</p>
+                        <p class="card__precio">$1500</p>
+                        <a href="" class="card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
+                        <p class="card__nombre">Producto XYZ</p>
+                        <p class="card__precio">$1500</p>
+                        <a href="" class="card__verProducto">Ver Producto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container__contacto">
+            <div class="links">
+                <img src="" alt="" class="links__logo">
+                <a href="" class="links__link">¿Quiénes somos?</a>
+                <a href="" class="links__link">Política de privacidad</a>
+                <a href="" class="links__link">Programa de fidelidad</a>
+                <a href="" class="links__link">Nuestras tiendas</a>
+                <a href="" class="links__link">Quiero ser franquiciado</a>
+                <a href="" class="links__link">Anuncie aquí</a>
+            </div>
+            <div class="contacto">
+                <h2 class="contacto__subtitulo">Hable con nosotros</h2>
+                <form action="" class="contacto__form">
+                    <input class="contacto__nombre" type="text" id="nombre">
+                    <label class="contacto__label" for="nombre">Nombre</label>
+                    <input type="text" id="mensaje" class="contacto__mensaje">
+                    <label for="mensaje" class="contacto__label">Mensaje</label>
+                    <button class="contacto__boton">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="footer__texto">Desarrollado por Max <br>
+            2023</p>
+        </footer>
+    </div>
+</body>
+</html>
