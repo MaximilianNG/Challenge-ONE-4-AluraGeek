@@ -1,0 +1,14 @@
+@use '../abstracts' as a;
+
+.btnFondoBlanco {
+    border: 2px solid a.$primary;
+    color: a.$primary;
+    background-color: white;
+    width: 8.3rem;
+    height: 2.5rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 0.6rem 0 0 0.6rem;
+}
