@@ -1,82 +1,12 @@
-@use '../abstracts/colors';
-
-.logoYBoton {
+.container__header {
     display: flex;
-    position: absolute;
+    flex-direction: column;
 }
 
-.container__logoYBoton {
-    width: 97vw;
-    position: relative;
-    padding: .2em;
-    float: right;
-}
-
-.search-bar {
-    --size: 60px;
-    float: right;
+.header {
     display: flex;
-    border-radius: 50px;
-    height: var(--size);
-    width: var(--size);
-    position: relative;
-    transition: width 300ms ease-in-out;
-    overflow: hidden;
-    padding-right: 3px;
-
-    &__input {
-        flex-grow: 1;
-        font-size: 1.8rem;
-        padding: 0 0.5rem;
-        border: 0;
-        background: transparent;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        opacity: 0;
-        cursor: pointer;
-
-        &:focus {
-          outline: 0;  
-        }
-
-        &::placeholder {
-            opacity: 0;
-            transition: opacity 600ms ease-in-out;
-        }
-    }
-
-    &__submit {
-        font-size: 1.4rem;
-        cursor: pointer;
-        border: 0;
-        background: transparent;
-        border-radius: 50%;
-        width: calc(var(--size) - 10px);
-        height: calc(var(--size) - 10px);
-        margin: 5px 3px 0 5px;
-        margin-left: auto;
-        transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
-    }
-
-    &:focus-within {
-        width: 100%;
-
-        .search-bar__input {
-            opacity: 1;
-            cursor: initial;
-            max-width: calc(100% - var(--size) - 15px);
-            background-color: white;
-        }
-
-        .search-bar__input::placeholder {
-            opacity: 1;
-        }
-
-        .search-bar__submit {
-            background-color: colors.$primary;
-            color: white;
-        }
-    }
+    flex-direction: row;
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: space-around;
 }

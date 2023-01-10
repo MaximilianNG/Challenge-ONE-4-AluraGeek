@@ -1,5 +1,7 @@
+@use '../abstracts' as a;
+
 .galeria {
-    min-width: 100vw;
+    padding: 1rem;
 
     &__header {
         display: flex;
@@ -8,15 +10,46 @@
 
     &__subtitulo {
         justify-self: flex-start;
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+        color: a.$secondary;
+        align-self: center;
     }
 
     &__verTodo {
         margin-left: auto;
+        color: a.$primary;
+        text-decoration: none;
+        font-size: 0.93rem;
+        align-self: center;
+        padding-bottom: 1rem;
     }
 
     &__productos {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    &__imagen {
+        width: 156px;
+        height: 174px;
+    }
+
+    &__verProducto {
+        color: a.$primary;
+        text-decoration: none;
+    }
+
+    &--notMobile {
+        display: none;
     }
 }

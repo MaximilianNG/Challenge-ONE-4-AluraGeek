@@ -19,100 +19,185 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!--Fin de importación-->
 
+    <script src="js/buttons.js" defer></script>
+
     <title>AluraGeek</title>
 </head>
 <body>
     <div class="container">
-        <section class="container__logoYBoton">
-            <div class="logoYBoton">
+
+        <section class="container__header">
+            <div class="header">
                 <img class="logoHeader" src="./assets/logo.png">
-                <button class="raleway600 btnFondoBlanco">Login</button>
+                <button class="raleway600 btnFondoBlanco" id="botonLogin">Login</button>
+                <button class="btnBusqueda" id="botonBusqueda"><i class="fas fa-search"></i></button>
             </div>
-            <div class="search-bar">
-                <button class="search-bar__submit" aria-label="submit search">
-                    <i class="fas fa-search"></i></button>
-                <input type="text" class="search-bar__input" placeholder="Buscar" aria-label="search">
-            </div>
+            <input type="text" class="raleway400 header__input" placeholder="Buscar" id="inputBusqueda">
         </section>
+        
         <section class="container__banner">
             <img class="banner__imagen" src="./assets/banner-mobile.png" alt="Banner: una mano sostiene un hongo de plástico con el estilo de los que se encuentran en juegos de Mario">
             <div class="banner__texto">
-                <h1 class="banner__titulo">Febrero Promocional</h1>
-                <h2 class="banner__subtitulo">Productos seleccionados con 33% de descuento</h2>
-                <button class="banner__boton">Ver consolas</button>
+                <h1 class="raleway700 banner__titulo">Enero Promocional</h1>
+                <h2 class="raleway600 banner__subtitulo">Productos seleccionados con 33% de descuento</h2>
+                <button class="btnVerConsolas">Ver consolas</button>
             </div>
         </section>
+
         <section class="container__galeria">
+            <!--STAR WARS-->
             <div class="galeria">
                 <div class="galeria__header">
-                    <h2 class="galeria__subtitulo">Star Wars</h2>
-                    <a href="" class="galeria__verTodo">Ver Todo</a>
+                    <h2 class="raleway700 galeria__subtitulo">Star Wars</h2>
+                    <a href="" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="galeria__productos">
                     <div class="card">
-                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
-                        <p class="card__nombre">Producto XYZ</p>
-                        <p class="card__precio">$1500</p>
-                        <a href="" class="card__verProducto">Ver Producto</a>
+                        <img src="./assets/products/starwars/producto-starwars1.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
                     </div>
                     <div class="card">
-                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
-                        <p class="card__nombre">Producto XYZ</p>
-                        <p class="card__precio">$1500</p>
-                        <a href="" class="card__verProducto">Ver Producto</a>
+                        <img src="./assets/products/starwars/producto-starwars2.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/products/starwars/producto-starwars3.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/products/starwars/producto-starwars4.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card card--notMobile">
+                        <img src="./assets/products/starwars/producto-starwars5.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card card--notMobile">
+                        <img src="./assets/products/starwars/producto-starwars6.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
                     </div>
                 </div>
             </div>
+            <!--FIN STAR WARS-->
+
+            <!--CONSOLAS-->
             <div class="galeria">
                 <div class="galeria__header">
-                    <h2 class="galeria__subtitulo">Consolas</h2>
-                    <a href="" class="galeria__verTodo">Ver Todo</a>
+                    <h2 class="raleway700 galeria__subtitulo">Consolas</h2>
+                    <a href="" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="galeria__productos">
                     <div class="card">
-                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
-                        <p class="card__nombre">Producto XYZ</p>
-                        <p class="card__precio">$1500</p>
-                        <a href="" class="card__verProducto">Ver Producto</a>
+                        <img src="./assets/products/consolas/producto-consolas1.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
                     </div>
                     <div class="card">
-                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
-                        <p class="card__nombre">Producto XYZ</p>
-                        <p class="card__precio">$1500</p>
-                        <a href="" class="card__verProducto">Ver Producto</a>
+                        <img src="./assets/products/consolas/producto-consolas2.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/products/consolas/producto-consolas3.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/products/consolas/producto-consolas4.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card card--notMobile">
+                        <img src="./assets/products/consolas/producto-consolas5.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card card--notMobile">
+                        <img src="./assets/products/consolas/producto-consolas6.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
                     </div>
                 </div>
             </div>
+            <!--FIN DE CONSOLAS-->
+
+
+            <!--DIVERSOS-->
             <div class="galeria">
                 <div class="galeria__header">
-                    <h2 class="galeria__subtitulo">Diversos</h2>
-                    <a href="" class="galeria__verTodo">Ver Todo</a>
+                    <h2 class="raleway700 galeria__subtitulo">Diversos</h2>
+                    <a href="" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="galeria__productos">
                     <div class="card">
-                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
-                        <p class="card__nombre">Producto XYZ</p>
-                        <p class="card__precio">$1500</p>
-                        <a href="" class="card__verProducto">Ver Producto</a>
+                        <img src="./assets/products/diversos/producto-diversos1.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
                     </div>
                     <div class="card">
-                        <img src="./assets/producto-control.png" alt="" class="card__imagen">
-                        <p class="card__nombre">Producto XYZ</p>
-                        <p class="card__precio">$1500</p>
-                        <a href="" class="card__verProducto">Ver Producto</a>
+                        <img src="./assets/products/diversos/producto-diversos2.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/products/diversos/producto-diversos3.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/products/diversos/producto-diversos4.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="card card--notMobile">
+                        <img src="./assets/products/diversos/producto-diversos5.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
+                    </div>
+                    <div class="car card--notMobile">
+                        <img src="./assets/products/diversos/producto-diversos6.png" alt="" class="card__imagen">
+                        <p class="raleway500 card__nombre">Producto XYZ</p>
+                        <p class="raleway700 card__precio">$1500</p>
+                        <a href="" class="raleway700 card__verProducto">Ver Producto</a>
                     </div>
                 </div>
             </div>
+            <!--FIN DE DIVERSOS-->
         </section>
+
         <section class="container__contacto">
+            <img src="./assets/logo.png" alt="" class="logoContacto">
             <div class="links">
                 <img src="" alt="" class="links__logo">
-                <a href="" class="links__link">¿Quiénes somos?</a>
-                <a href="" class="links__link">Política de privacidad</a>
-                <a href="" class="links__link">Programa de fidelidad</a>
-                <a href="" class="links__link">Nuestras tiendas</a>
-                <a href="" class="links__link">Quiero ser franquiciado</a>
-                <a href="" class="links__link">Anuncie aquí</a>
+                <a href="" class="raleway500 links__link">¿Quiénes somos?</a>
+                <a href="" class="raleway500 links__link">Política de privacidad</a>
+                <a href="" class="raleway500 links__link">Programa de fidelidad</a>
+                <a href="" class="raleway500 links__link">Nuestras tiendas</a>
+                <a href="" class="raleway500 links__link">Quiero ser franquiciado</a>
+                <a href="" class="raleway500 links__link">Anuncie aquí</a>
             </div>
             <div class="contacto">
                 <h2 class="contacto__subtitulo">Hable con nosotros</h2>
@@ -125,6 +210,7 @@
                 </form>
             </div>
         </section>
+
         <footer class="footer">
             <p class="footer__texto">Desarrollado por Max <br>
             2023</p>

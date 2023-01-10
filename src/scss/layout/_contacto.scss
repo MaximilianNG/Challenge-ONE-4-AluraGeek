@@ -1,0 +1,21 @@
+@use '../abstracts' as a;
+
+.container__contacto {
+    background-color: a.$tertiary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__link {
+        text-decoration: none;
+        color: a.$secondary;
+    }
+}

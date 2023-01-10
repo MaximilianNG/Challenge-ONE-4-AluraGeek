@@ -10,5 +10,25 @@
     line-height: 1rem;
     text-decoration: none;
     text-align: center;
-    margin: 0.6rem 0 0 0.6rem;
+}
+
+.btnBusqueda {
+    font-size: 1.3rem;
+    background: transparent;
+    border: 0;
+    padding-top: 5px;
+    outline: transparent;
+}
+
+.btnVerConsolas {
+    border: 2px solid a.$primary;
+    color: white;
+    background-color: a.$primary;
+    width: 8.3rem;
+    min-height: 2.5rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0.5rem;
 }

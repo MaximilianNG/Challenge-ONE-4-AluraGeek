@@ -1,0 +1,19 @@
+.header__input {
+    visibility: hidden;
+    height: 0;
+    margin: 0px;
+    padding: 0px;
+    transition: height 500ms;
+    
+    &2 {
+        visibility: visible;
+        height: 1.2rem;
+        outline: 0;
+        border: 0;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+        text-overflow: clip;
+        transition: height 500ms;
+    }
+}

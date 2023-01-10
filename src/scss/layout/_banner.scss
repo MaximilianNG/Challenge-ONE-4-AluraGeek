@@ -1,9 +1,25 @@
 .container__banner {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner__texto {
     position: absolute;
-    bottom: 8px;
+    left: 0.8rem;
+    right: 1rem;
+    bottom: 1rem;
+    top: 5.5rem;
+    display: flex;
+    flex-direction: column;
     color: white;
+}
+
+.banner__titulo {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.banner__subtitulo {
+    font-size: 0.9rem;
 }
