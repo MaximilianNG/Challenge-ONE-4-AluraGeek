@@ -106,15 +106,15 @@ table {
 }
 
 .btnContacto {
-  margin-top: -1rem;
+  margin-top: -0.5rem;
   background-color: #2A7AE4;
   border-color: #2A7AE4;
   color: white;
   font-size: 1rem;
   line-height: 16px;
   height: 3rem;
-  max-width: 10rem;
   transition: 0.3s;
+  min-width: 12rem;
 }
 
 .btnLogin {
@@ -126,6 +126,7 @@ table {
   line-height: 16px;
   height: 3rem;
   transition: 0.3s;
+  min-width: 12rem;
 }
 
 .logoHeader {
@@ -218,6 +219,7 @@ table {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: center;
 }
 .contacto__inputGroup {
   position: relative;
@@ -340,6 +342,7 @@ table {
   display: flex;
   flex-direction: column;
   gap: 1.7rem;
+  align-items: center;
 }
 .login__inputGroup {
   position: relative;
