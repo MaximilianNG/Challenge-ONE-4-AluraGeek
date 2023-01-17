@@ -1,40 +1,23 @@
 @use '../abstracts' as a;
 
-.container__contacto {
-    background-color: a.$tertiary;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1rem;
+.container__login {
+    background-color: a.$grey;
+    padding: 4rem 3rem;
 }
 
-.links {
+.login {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
-    &__link {
-        text-decoration: none;
-        color: a.$secondary;
-        padding: 0 0 1rem 0;
-    }
-}
-
-.contacto {
-    display: flex;
-    flex-direction: column;
-
-    &__subtitulo {
-        font-size: 1rem;
-        padding: 1rem 1rem 1.7rem 0;
+    &__titulo {
+        padding-bottom: 1.4rem;
     }
 
     &__form {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.7rem;
     }
 
     &__inputGroup {
@@ -54,7 +37,7 @@
     }
 
     &__input {
-        width: 90vw;
+        width: 65vw;
         border-radius: 4px;
         height: 2rem;
         border-style: none;
@@ -64,12 +47,12 @@
         &:focus {
             outline: none;
             box-shadow: 0px 3px 1px 0px #2A7AE4;
-        }
+        };
     }
 }
 
-.contacto__input:focus~.contacto__label,
-.contacto__input:valid~.contacto__label {
+.login__input:focus~.login__label,
+.login__input:valid~.login__label {
     top: -1.7rem;
     font-size: 0.8rem;
 }

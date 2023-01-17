@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SASS-->
+    <link rel="stylesheet" href="../styles/main.css">
+    <!---->
+
+    <!--Importamos los íconos desde un kit gratuito de Font Awesome-->
+    <script src="https://kit.fontawesome.com/12b91aa229.js" crossorigin="anonymous"></script>
+    <!--Fin de importación-->
+
+    <!--Importamos la font Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--Fin de importación-->
+
+    <title>AluraGeek - Login</title>
+</head>
+<body>
+    <div class="container">
+        <section class="container__header">
+            <div class="header header--login">
+                <img class="logoHeader" id="logoHeader" src="./assets/logo.png">
+                <button class="btnBusqueda" id="botonBusqueda"><i class="fas fa-search"></i></button>
+            </div>
+            <input type="text" class="raleway400 header__input" placeholder="Buscar" id="inputBusqueda">
+        </section>
+    
+        <section class="container__login">
+            <div class="login">
+                <p class="raleway700 login__titulo">Iniciar sesión</p>
+                <form action="" class="login__form">
+                    <div class="login__inputGroup">
+                        <input type="mail" class="login__input" id="correo" required>
+                        <label for="correo" class="raleway400 login__label">Correo electrónico</label>
+                    </div>
+                    <div class="login__inputGroup">
+                        <input type="text" class="login__input" id="contrasenia" required>
+                        <label for="contrasenia" class="raleway400 login__label">Contraseña</label>
+                    </div>
+                    <button class="btnLogin">Entrar</button>
+                </form>
+            </div>
+        </section>
+    
+        <section class="container__contacto">
+            <img src="./assets/logo.png" alt="" class="logoContacto">
+            <div class="links">
+                <img src="" alt="" class="links__logo">
+                <a href="" class="raleway500 links__link">¿Quiénes somos?</a>
+                <a href="" class="raleway500 links__link">Política de privacidad</a>
+                <a href="" class="raleway500 links__link">Programa de fidelidad</a>
+                <a href="" class="raleway500 links__link">Nuestras tiendas</a>
+                <a href="" class="raleway500 links__link">Quiero ser franquiciado</a>
+                <a href="" class="raleway500 links__link">Anuncie aquí</a>
+            </div>
+            <div class="contacto">
+                <h2 class="raleway700 contacto__subtitulo">Hable con nosotros &nbsp;&nbsp;&nbsp;<i class="fas fa-hand-point-down"></i></h2>
+                <form action="" class="contacto__form">
+                    <div class="contacto__inputGroup">
+                        <input class="contacto__input" type="text" id="nombre" required>
+                        <label class="raleway400 contacto__label" for="nombre">Nombre</label>
+                    </div>
+                    <div class="contacto__inputGroup">
+                        <input type="text" id="mensaje" class="contacto__input" required>
+                        <label for="mensaje" class="raleway400 contacto__label">Mensaje</label>
+                    </div>
+                        <button class="btnContacto">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    
+        <footer class="footer">
+            <p class="raleway500">Desarrollado por Max <br>
+            2023</p>
+        </footer>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.raleway400 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.raleway500 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.raleway600 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.raleway700 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.btnFondoBlanco {
+  border: 2px solid #2A7AE4;
+  color: #2A7AE4;
+  background-color: white;
+  width: 8.3rem;
+  height: 2.5rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btnBusqueda {
+  font-size: 1.3rem;
+  background: transparent;
+  border: 0;
+  padding-top: 5px;
+  outline: transparent;
+}
+
+.btnVerConsolas {
+  border: 2px solid #2A7AE4;
+  color: white;
+  background-color: #2A7AE4;
+  width: 8.3rem;
+  min-height: 2.5rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.btnContacto {
+  margin-top: -1rem;
+  background-color: #2A7AE4;
+  border-color: #2A7AE4;
+  color: white;
+  font-size: 1rem;
+  line-height: 16px;
+  height: 3rem;
+  max-width: 10rem;
+  transition: 0.3s;
+}
+
+.btnLogin {
+  margin-top: -0.5rem;
+  background-color: #2A7AE4;
+  border-color: #2A7AE4;
+  color: white;
+  font-size: 1rem;
+  line-height: 16px;
+  height: 3rem;
+  transition: 0.3s;
+}
+
+.logoHeader {
+  width: 110px;
+  height: 30px;
+  padding: 1rem 1rem 0.5rem 0.6rem;
+}
+
+.logoContacto {
+  width: 176px;
+  height: 50px;
+  padding: 1rem 0;
+}
+
+.header__input {
+  visibility: hidden;
+  height: 0;
+  margin: 0px;
+  padding: 0px;
+  transition: height 500ms;
+}
+.header__input2 {
+  visibility: visible;
+  height: 1.2rem;
+  outline: 0;
+  border: 0;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  text-overflow: clip;
+  transition: height 500ms;
+}
+
+.container__banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__texto {
+  position: absolute;
+  left: 0.8rem;
+  right: 1rem;
+  bottom: 1rem;
+  top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.banner__titulo {
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.banner__subtitulo {
+  font-size: 0.9rem;
+}
+
+.container__contacto {
+  background-color: #EAF2FD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.links__link {
+  text-decoration: none;
+  color: #464646;
+  padding: 0 0 1rem 0;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+.contacto__subtitulo {
+  font-size: 1rem;
+  padding: 1rem 1rem 1.7rem 0;
+}
+.contacto__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contacto__inputGroup {
+  position: relative;
+}
+.contacto__label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  cursor: text;
+  font-size: 0.9rem;
+  color: #A2A2A2;
+  transition: 0.2s;
+}
+.contacto__input {
+  width: 90vw;
+  border-radius: 4px;
+  height: 2rem;
+  border-style: none;
+  box-shadow: 0px 4px 0px -2px #C8C8C8;
+  transition: 0.3s;
+}
+.contacto__input:focus {
+  outline: none;
+  box-shadow: 0px 3px 1px 0px #2A7AE4;
+}
+
+.contacto__input:focus ~ .contacto__label,
+.contacto__input:valid ~ .contacto__label {
+  top: -1.7rem;
+  font-size: 0.8rem;
+}
+
+.galeria {
+  padding: 1rem;
+}
+.galeria__header {
+  display: flex;
+  flex-direction: row;
+}
+.galeria__subtitulo {
+  justify-self: flex-start;
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+  color: #464646;
+  align-self: center;
+}
+.galeria__verTodo {
+  margin-left: auto;
+  color: #2A7AE4;
+  text-decoration: none;
+  font-size: 0.93rem;
+  align-self: center;
+  padding-bottom: 1rem;
+}
+.galeria__productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.card__imagen {
+  width: 156px;
+  height: 174px;
+}
+.card__verProducto {
+  color: #2A7AE4;
+  text-decoration: none;
+}
+.card--notMobile {
+  display: none;
+}
+
+.container__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header--login {
+  justify-content: space-between;
+  margin-right: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 1rem 0;
+}
+
+.container__login {
+  background-color: #F5F5F5;
+  padding: 4rem 3rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__titulo {
+  padding-bottom: 1.4rem;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+.login__inputGroup {
+  position: relative;
+}
+.login__label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  cursor: text;
+  font-size: 0.9rem;
+  color: #A2A2A2;
+  transition: 0.2s;
+}
+.login__input {
+  width: 65vw;
+  border-radius: 4px;
+  height: 2rem;
+  border-style: none;
+  box-shadow: 0px 4px 0px -2px #C8C8C8;
+  transition: 0.3s;
+}
+.login__input:focus {
+  outline: none;
+  box-shadow: 0px 3px 1px 0px #2A7AE4;
+}
+
+.login__input:focus ~ .login__label,
+.login__input:valid ~ .login__label {
+  top: -1.7rem;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=main.css.map */

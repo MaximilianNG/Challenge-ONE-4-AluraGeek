@@ -32,3 +32,26 @@
     text-align: center;
     margin-top: 0.5rem;
 }
+
+.btnContacto {
+    margin-top: -1rem;
+    background-color: a.$primary;
+    border-color: a.$primary;
+    color: white;
+    font-size: 1rem;
+    line-height: 16px;
+    height: 3rem;
+    max-width: 10rem;
+    transition: 0.3s;
+}
+
+.btnLogin {
+    margin-top: -0.5rem;
+    background-color: a.$primary;
+    border-color: a.$primary;
+    color: white;
+    font-size: 1rem;
+    line-height: 16px;
+    height: 3rem;
+    transition: 0.3s;
+}

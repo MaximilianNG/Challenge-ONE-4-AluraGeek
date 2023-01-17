@@ -2,16 +2,13 @@
   "name": "challenge-one-4---alurageek",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
-  },
   "keywords": [],
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
     "sass": "^1.57.1"
   }
 }
