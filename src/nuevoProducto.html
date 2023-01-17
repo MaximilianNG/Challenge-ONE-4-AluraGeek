@@ -19,35 +19,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!--Fin de importación-->
 
-    <title>AluraGeek - Login</title>
+    <title>AluraGeek - Nuevo Producto</title>
 </head>
 <body>
     <div class="container">
         <section class="container__header">
-            <div class="header header--login">
-                <img class="logoHeader" id="logoHeader" src="./assets/logo.png">
+            <div class="header">
+                <img class="logoHeader" src="./assets/logo.png" id="logoHeader">
+                <button class="raleway600 btnFondoBlanco" id="botonMenuDeAdministrador">Menú de administrador</button>
                 <button class="btnBusqueda" id="botonBusqueda"><i class="fas fa-search"></i></button>
             </div>
             <input type="text" class="raleway400 header__input" placeholder="Buscar" id="inputBusqueda">
         </section>
-    
-        <section class="container__login">
-            <div class="login">
-                <p class="raleway700 login__titulo">Iniciar sesión</p>
-                <form action="" class="login__form">
-                    <div class="login__inputGroup">
-                        <input type="mail" class="login__input" id="correo" required>
-                        <label for="correo" class="raleway400 login__label">Correo electrónico</label>
+
+        <section class="container__nuevoProducto">
+            <div class="nuevoProducto">
+                <p class="raleway700 nuevoProducto__titulo">Agregar nuevo producto</p>
+                <form action="" class="nuevoProducto__form">
+                    <div class="nuevoProducto__inputGroup">
+                        <input type="url" class="nuevoProducto__input" id="urlImagen" required>
+                        <label for="urlImagen" class="raleway400 nuevoProducto__label">URL de la imagen</label>
                     </div>
-                    <div class="login__inputGroup">
-                        <input type="text" class="login__input" id="contrasenia" required>
-                        <label for="contrasenia" class="raleway400 login__label">Contraseña</label>
+                    <div class="nuevoProducto__inputGroup">
+                        <input type="text" class="nuevoProducto__input" id="categoria" required>
+                        <label for="categoria" class="raleway400 nuevoProducto__label">Categoría</label>
                     </div>
-                    <button class="btnLogin" id="botonEntrar">Entrar</button>
+                    <div class="nuevoProducto__inputGroup">
+                        <input type="text" class="nuevoProducto__input" id="nombre" required>
+                        <label for="nombre" class="raleway400 nuevoProducto__label">Nombre del producto</label>
+                    </div>
+                    <div class="nuevoProducto__inputGroup">
+                        <input type="number" class="nuevoProducto__input" id="precio" required>
+                        <label for="precio" class="raleway400 nuevoProducto__label">Precio</label>
+                    </div>
+                    <div class="nuevoProducto__inputGroup">
+                        <textarea type="text" class="nuevoProducto__input" id="descripcion" required></textarea>
+                        <label for="descripcion" class="raleway400 nuevoProducto__label">Descripción del producto</label>
+                    </div>
+                    <button class="btnAgregarProducto">Agregar producto</button>
                 </form>
             </div>
         </section>
-    
+
         <section class="container__contacto">
             <img src="./assets/logo.png" alt="" class="logoContacto">
             <div class="links">
@@ -74,12 +87,13 @@
                 </form>
             </div>
         </section>
-    
+
         <footer class="footer">
             <p class="raleway500">Desarrollado por Max <br>
             2023</p>
         </footer>
+
+        <script type="module" src="./js/app.js"></script>
     </div>
-    <script type="module" src="./js/app.js"></script>
 </body>
 </html>

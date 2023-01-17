@@ -129,6 +129,18 @@ table {
   min-width: 12rem;
 }
 
+.btnAgregarProducto {
+  margin-top: -0.5rem;
+  background-color: #2A7AE4;
+  border-color: #2A7AE4;
+  color: white;
+  font-size: 1rem;
+  line-height: 16px;
+  height: 3rem;
+  transition: 0.3s;
+  min-width: 75vw;
+}
+
 .logoHeader {
   width: 110px;
   height: 30px;
@@ -373,6 +385,59 @@ table {
 
 .login__input:focus ~ .login__label,
 .login__input:valid ~ .login__label {
+  top: -1.7rem;
+  font-size: 0.8rem;
+}
+
+.container__nuevoProducto {
+  background-color: #F5F5F5;
+  padding: 1rem;
+}
+
+.nuevoProducto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nuevoProducto__titulo {
+  padding-bottom: 1.6rem;
+  font-size: 22px;
+}
+.nuevoProducto__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  align-items: center;
+}
+.nuevoProducto__inputGroup {
+  position: relative;
+}
+.nuevoProducto__label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  cursor: text;
+  font-size: 0.9rem;
+  color: #A2A2A2;
+  transition: 0.2s;
+}
+.nuevoProducto__input {
+  width: 75vw;
+  border-radius: 4px;
+  height: 2rem;
+  border-style: none;
+  box-shadow: 0px 4px 0px -2px #C8C8C8;
+  transition: 0.3s;
+}
+.nuevoProducto__input:focus {
+  outline: none;
+  box-shadow: 0px 3px 1px 0px #2A7AE4;
+}
+
+.nuevoProducto__input:focus ~ .nuevoProducto__label,
+.nuevoProducto__input:valid ~ .nuevoProducto__label {
   top: -1.7rem;
   font-size: 0.8rem;
 }/*# sourceMappingURL=main.css.map */
