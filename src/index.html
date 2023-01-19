@@ -38,7 +38,7 @@
             <div class="banner__texto">
                 <h1 class="raleway700 banner__titulo">Enero Promocional</h1>
                 <h2 class="raleway600 banner__subtitulo">Productos seleccionados con 33% de descuento</h2>
-                <button class="btnVerConsolas">Ver consolas</button>
+                <button class="btnVerConsolas" id="botonVerconsolas">Ver consolas</button>
             </div>
         </section>
 
@@ -47,7 +47,7 @@
             <div class="galeria">
                 <div class="galeria__header">
                     <h2 class="raleway700 galeria__subtitulo">Star Wars</h2>
-                    <a href="" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="./verTodo.html" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="galeria__productos">
                     <div class="card">
@@ -91,10 +91,10 @@
             <!--FIN STAR WARS-->
 
             <!--CONSOLAS-->
-            <div class="galeria">
+            <div class="galeria" id="galeriaConsolas">
                 <div class="galeria__header">
                     <h2 class="raleway700 galeria__subtitulo">Consolas</h2>
-                    <a href="" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="./verTodo.html" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="galeria__productos">
                     <div class="card">
@@ -142,7 +142,7 @@
             <div class="galeria">
                 <div class="galeria__header">
                     <h2 class="raleway700 galeria__subtitulo">Diversos</h2>
-                    <a href="" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="./verTodo.html" class="raleway700 galeria__verTodo">Ver Todo <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <div class="galeria__productos">
                     <div class="card">
@@ -201,11 +201,11 @@
                 <h2 class="raleway700 contacto__subtitulo">Hable con nosotros &nbsp;&nbsp;&nbsp;<i class="fas fa-hand-point-down"></i></h2>
                 <form action="" class="contacto__form">
                     <div class="contacto__inputGroup">
-                        <input class="contacto__input" type="text" id="nombre" required>
+                        <input class="contacto__input" type="text" id="nombre" required maxlength="40">
                         <label class="raleway400 contacto__label" for="nombre">Nombre</label>
                     </div>
                     <div class="contacto__inputGroup">
-                        <input type="text" id="mensaje" class="contacto__input" required>
+                        <input type="text" id="mensaje" class="contacto__input" required maxlength="120">
                         <label for="mensaje" class="raleway400 contacto__label">Mensaje</label>
                     </div>
                         <button class="btnContacto">Enviar mensaje</button>
@@ -219,5 +219,6 @@
         </footer>
     </div>
     <script type="module" src="./js/app.js"></script>
+    <script type="module" src="./js/validations.js"></script>
 </body>
 </html>

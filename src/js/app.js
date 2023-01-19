@@ -1,7 +1,7 @@
 const header = document.querySelector("#header");
 const logoHeader = document.querySelector("#logoHeader");
 const botonLogin = document.querySelector("#botonLogin");
-const botonEntrar = document.querySelector("#botonEntrar");
+const botonVerConsolas = document.querySelector("#botonVerconsolas");
 const botonBusqueda = document.querySelector("#botonBusqueda");
 const inputBusqueda = document.querySelector("#inputBusqueda");
 
@@ -9,8 +9,8 @@ if (botonLogin) {
     botonLogin.addEventListener("click", goToLogin);
 }
 
-if (botonEntrar) {
-    botonEntrar.addEventListener("click", goToNuevoProducto);
+if (botonVerConsolas) {
+    botonVerConsolas.addEventListener("click", slideAVerConsolas);
 }
 
 logoHeader.addEventListener("click", goToIndex);
@@ -22,7 +22,7 @@ botonBusqueda.addEventListener("click", (e) => {
 /**
  * Redirects to login.html
  */
-    function goToLogin() {
+function goToLogin() {
     window.location = './login.html';
 }
 
@@ -34,8 +34,12 @@ function goToIndex() {
 }
 
 /**
- * Redirects to nuevoProducto.html
+ * Slides a la galería de consolas.
  */
-function goToNuevoProducto() {
-    window.location = './nuevoProducto.html';
+function slideAVerConsolas() {
+    document.querySelector("#galeriaConsolas").scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+        inline: 'start'
+      });
 }

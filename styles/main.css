@@ -300,6 +300,9 @@ table {
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  max-width: 156px;
+  justify-content: inherit;
+  box-shadow: 2px 3px 2px 0px rgba(70, 70, 70, 0.07);
 }
 .card__imagen {
   width: 156px;
@@ -311,6 +314,10 @@ table {
 }
 .card--notMobile {
   display: none;
+}
+
+.verTodo {
+  background-color: #F5F5F5;
 }
 
 .container__header {
@@ -389,6 +396,11 @@ table {
   font-size: 0.8rem;
 }
 
+.noBajar {
+  top: -1.7rem;
+  font-size: 0.8rem;
+}
+
 .container__nuevoProducto {
   background-color: #F5F5F5;
   padding: 1rem;
@@ -438,6 +450,11 @@ table {
 
 .nuevoProducto__input:focus ~ .nuevoProducto__label,
 .nuevoProducto__input:valid ~ .nuevoProducto__label {
+  top: -1.7rem;
+  font-size: 0.8rem;
+}
+
+.noBajar {
   top: -1.7rem;
   font-size: 0.8rem;
 }/*# sourceMappingURL=main.css.map */

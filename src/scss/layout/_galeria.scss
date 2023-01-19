@@ -38,6 +38,9 @@
     flex-direction: column;
     gap: 0.5rem;
     margin-bottom: 1rem;
+    max-width: 156px;
+    justify-content: inherit;
+    box-shadow: 2px 3px 2px 0px rgb(70 70 70 / 7%);
 
     &__imagen {
         width: 156px;
@@ -52,4 +55,8 @@
     &--notMobile {
         display: none;
     }
+}
+
+.verTodo {
+    background-color: a.$grey;
 }
