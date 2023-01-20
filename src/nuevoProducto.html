@@ -35,25 +35,25 @@
         <section class="container__nuevoProducto">
             <div class="nuevoProducto">
                 <p class="raleway700 nuevoProducto__titulo">Agregar nuevo producto</p>
-                <form action="" class="nuevoProducto__form">
+                <form action="submit" class="nuevoProducto__form" data-form>
                     <div class="nuevoProducto__inputGroup">
-                        <input type="url" class="nuevoProducto__input" id="urlImagen" required>
+                        <input type="url" class="nuevoProducto__input" id="urlImagen" data-imagen required>
                         <label for="urlImagen" class="raleway400 nuevoProducto__label">URL de la imagen</label>
                     </div>
                     <div class="nuevoProducto__inputGroup">
-                        <input type="text" class="nuevoProducto__input" id="categoria" required maxlength="20">
+                        <input type="text" class="nuevoProducto__input" id="categoria" data-categoria required maxlength="20">
                         <label for="categoria" class="raleway400 nuevoProducto__label">Categoría</label>
                     </div>
                     <div class="nuevoProducto__inputGroup">
-                        <input type="text" class="nuevoProducto__input" id="nombreProducto" required maxlength="20">
+                        <input type="text" class="nuevoProducto__input" id="nombreProducto" data-nombre required maxlength="20">
                         <label for="nombreProducto" class="raleway400 nuevoProducto__label">Nombre del producto</label>
                     </div>
                     <div class="nuevoProducto__inputGroup">
-                        <input type="number" class="nuevoProducto__input" id="precio" required>
+                        <input type="number" class="nuevoProducto__input" id="precio" data-precio required>
                         <label for="precio" class="raleway400 nuevoProducto__label">Precio</label>
                     </div>
                     <div class="nuevoProducto__inputGroup">
-                        <textarea type="text" class="nuevoProducto__input" id="descripcion" required maxlength="150"></textarea>
+                        <textarea type="text" class="nuevoProducto__input" id="descripcion" data-descripcion required maxlength="150"></textarea>
                         <label for="descripcion" class="raleway400 nuevoProducto__label">Descripción del producto</label>
                     </div>
                     <button class="btnAgregarProducto">Agregar producto</button>
@@ -96,6 +96,7 @@
         <script type="module" src="./js/app.js"></script>
         <script type="module" src="./js/validations.js"></script>
         <script type="module" src="./js/validationsNuevoProducto.js"></script>
+        <script type="module" src="./controllers/nuevoProducto.controller.js"></script>
     </div>
 </body>
 </html>

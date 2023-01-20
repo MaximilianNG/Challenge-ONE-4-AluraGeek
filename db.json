@@ -1,148 +1,148 @@
 {
-    "productos": [
-        {
-            "id": 1,
-            "nombre": "Mando para XBOX One",
-            "precio": "35000",
-            "categoria": "Consolas",
-            "imagen": "./assets/products/consolas/producto-consolas1.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 2,
-            "nombre": "Taza Stormtrooper",
-            "precio": "8000",
-            "categoria": "Star Wars",
-            "imagen": "./assets/products/starwars/producto-starwars1.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 3,
-            "nombre": "Muñeco Darth Vader",
-            "precio": "11000",
-            "categoria": "Star Wars",
-            "imagen": "./assets/products/starwars/producto-starwars3.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 4,
-            "nombre": "Nintendo Switch",
-            "precio": "180000",
-            "categoria": "Consolas",
-            "imagen": "./assets/products/consolas/producto-consolas4.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 5,
-            "nombre": "Andador Star Wars",
-            "precio": "9000",
-            "categoria": "Star Wars",
-            "imagen": "./assets/products/starwars/producto-starwars2.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 6,
-            "nombre": "Figura Stormtrooper 20x5",
-            "precio": "16000",
-            "categoria": "Star Wars",
-            "imagen": "./assets/products/starwars/producto-starwars4.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 7,
-            "nombre": "NES Classic",
-            "precio": "12000",
-            "categoria": "Consolas",
-            "imagen": "./assets/products/consolas/producto-consolas3.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 8,
-            "nombre": "PlayStation 5",
-            "precio": "340000",
-            "categoria": "Consolas",
-            "imagen": "./assets/products/consolas/producto-consolas2.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 9,
-            "nombre": "Llavero chibi Mikasa",
-            "precio": "4000",
-            "categoria": "Diversos",
-            "imagen": "./assets/products/diversos/producto-diversos1.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 10,
-            "nombre": "Buzo Levi",
-            "precio": "13000",
-            "categoria": "Diversos",
-            "imagen": "./assets/products/diversos/producto-diversos2.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 11,
-            "nombre": "Miniatura Sonic",
-            "precio": "3000",
-            "categoria": "Diversos",
-            "imagen": "./assets/products/diversos/producto-diversos3.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 12,
-            "nombre": "Yoda Toy",
-            "precio": "16000",
-            "categoria": "Star Wars",
-            "imagen": "./assets/products/starwars/producto-starwars5.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 13,
-            "nombre": "Kylo Ren Toy",
-            "precio": "16000",
-            "categoria": "Star Wars",
-            "imagen": "./assets/products/starwars/producto-starwars6.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 14,
-            "nombre": "XBOX One",
-            "precio": "330000",
-            "categoria": "Consolas",
-            "imagen": "./assets/products/consolas/producto-consolas5.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 15,
-            "nombre": "Game Boy",
-            "precio": "3500",
-            "categoria": "Consolas",
-            "imagen": "./assets/products/consolas/producto-consolas6.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 16,
-            "nombre": "Radio/Reloj Retro",
-            "precio": "7500",
-            "categoria": "Diversos",
-            "imagen": "./assets/products/diversos/producto-diversos4.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 17,
-            "nombre": "Plushie Pikachu 21x8",
-            "precio": "9000",
-            "categoria": "Diversos",
-            "imagen": "./assets/products/diversos/producto-diversos6.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        },
-        {
-            "id": 18,
-            "nombre": "Taza Pokebola",
-            "precio": "8500",
-            "categoria": "Diversos",
-            "imagen": "./assets/products/diversos/producto-diversos5.png",
-            "descripcion": "Un mando original para la consola XBOX One."
-        }
-    ]
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Mando para XBOX One",
+      "precio": "35000",
+      "categoria": "Consolas",
+      "imagen": "./assets/products/consolas/producto-consolas1.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 2,
+      "nombre": "Taza Stormtrooper",
+      "precio": "15000",
+      "categoria": "Star Wars",
+      "imagen": "./assets/products/starwars/producto-starwars1.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 3,
+      "nombre": "Muñeco Darth Vader",
+      "precio": "11000",
+      "categoria": "Star Wars",
+      "imagen": "./assets/products/starwars/producto-starwars3.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 4,
+      "nombre": "Nintendo Switch",
+      "precio": "180000",
+      "categoria": "Consolas",
+      "imagen": "./assets/products/consolas/producto-consolas4.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 5,
+      "nombre": "Andador Star Wars",
+      "precio": "9000",
+      "categoria": "Star Wars",
+      "imagen": "./assets/products/starwars/producto-starwars2.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 6,
+      "nombre": "Figura Stormtrooper 20x5",
+      "precio": "16000",
+      "categoria": "Star Wars",
+      "imagen": "./assets/products/starwars/producto-starwars4.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 7,
+      "nombre": "NES Classic",
+      "precio": "12000",
+      "categoria": "Consolas",
+      "imagen": "./assets/products/consolas/producto-consolas3.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 8,
+      "nombre": "PlayStation 5",
+      "precio": "340000",
+      "categoria": "Consolas",
+      "imagen": "./assets/products/consolas/producto-consolas2.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 9,
+      "nombre": "Llavero chibi Mikasa",
+      "precio": "4000",
+      "categoria": "Diversos",
+      "imagen": "./assets/products/diversos/producto-diversos1.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 10,
+      "nombre": "Buzo Levi",
+      "precio": "13000",
+      "categoria": "Diversos",
+      "imagen": "./assets/products/diversos/producto-diversos2.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 11,
+      "nombre": "Miniatura Sonic",
+      "precio": "3000",
+      "categoria": "Diversos",
+      "imagen": "./assets/products/diversos/producto-diversos3.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 12,
+      "nombre": "Yoda Toy",
+      "precio": "16000",
+      "categoria": "Star Wars",
+      "imagen": "./assets/products/starwars/producto-starwars5.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 13,
+      "nombre": "Kylo Ren Toy",
+      "precio": "16000",
+      "categoria": "Star Wars",
+      "imagen": "./assets/products/starwars/producto-starwars6.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 14,
+      "nombre": "XBOX One",
+      "precio": "330000",
+      "categoria": "Consolas",
+      "imagen": "./assets/products/consolas/producto-consolas5.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 15,
+      "nombre": "Game Boy",
+      "precio": "3500",
+      "categoria": "Consolas",
+      "imagen": "./assets/products/consolas/producto-consolas6.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 16,
+      "nombre": "Radio/Reloj Retro",
+      "precio": "7500",
+      "categoria": "Diversos",
+      "imagen": "./assets/products/diversos/producto-diversos4.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 17,
+      "nombre": "Plushie Pikachu 21x8",
+      "precio": "9000",
+      "categoria": "Diversos",
+      "imagen": "./assets/products/diversos/producto-diversos6.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    },
+    {
+      "id": 18,
+      "nombre": "Taza Pokebola",
+      "precio": "8500",
+      "categoria": "Diversos",
+      "imagen": "./assets/products/diversos/producto-diversos5.png",
+      "descripcion": "Un mando original para la consola XBOX One."
+    }
+  ]
 }

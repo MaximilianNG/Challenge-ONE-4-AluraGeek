@@ -68,3 +68,13 @@
     transition: 0.3s;
     min-width: 75vw;
 }
+
+.btnDelete {
+    font-size: 1.2rem;
+    align-self: center;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    background-color: rgb(162 34 34);
+    color: #fdffee;
+}
