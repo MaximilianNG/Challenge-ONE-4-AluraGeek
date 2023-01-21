@@ -19,9 +19,27 @@ const eliminarProducto = (id) => {
         method: "DELETE"
     })
 }
+
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json());
+}
+
+const editarProducto = (nombre, categoria, imagen, descripcion, precio, id) => {
+    return fetch(`http://localhost:3000/productos/${id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ nombre, precio, categoria, imagen, descripcion })
+    })
+    .then (respuesta => console.log(respuesta.json()))
+    .catch(err => console.log("Error en editarProducto(): " + err))
+}
     
 export const clientServices = {
     todosLosProductos,
     crearProducto,
-    eliminarProducto
+    eliminarProducto,
+    detalleProducto,
+    editarProducto
 };

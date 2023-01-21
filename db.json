@@ -1,12 +1,12 @@
 {
   "productos": [
     {
-      "id": 1,
       "nombre": "Mando para XBOX One",
-      "precio": "35000",
+      "precio": "36000",
       "categoria": "Consolas",
       "imagen": "./assets/products/consolas/producto-consolas1.png",
-      "descripcion": "Un mando original para la consola XBOX One."
+      "descripcion": "Un mando original para la consola XBOX One.",
+      "id": 1
     },
     {
       "id": 2,
@@ -17,12 +17,12 @@
       "descripcion": "Un mando original para la consola XBOX One."
     },
     {
-      "id": 3,
       "nombre": "Muñeco Darth Vader",
-      "precio": "11000",
+      "precio": "6000",
       "categoria": "Star Wars",
       "imagen": "./assets/products/starwars/producto-starwars3.png",
-      "descripcion": "Un mando original para la consola XBOX One."
+      "descripcion": "Un mando original para la consola XBOX One.",
+      "id": 3
     },
     {
       "id": 4,
@@ -33,12 +33,12 @@
       "descripcion": "Un mando original para la consola XBOX One."
     },
     {
-      "id": 5,
       "nombre": "Andador Star Wars",
-      "precio": "9000",
+      "precio": "11000",
       "categoria": "Star Wars",
       "imagen": "./assets/products/starwars/producto-starwars2.png",
-      "descripcion": "Un mando original para la consola XBOX One."
+      "descripcion": "Un andador copado con temática de Star Wars.",
+      "id": 5
     },
     {
       "id": 6,
