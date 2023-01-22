@@ -190,7 +190,7 @@ table {
 }
 .header__input2 {
   visibility: visible;
-  height: 1.2rem;
+  height: 1.6rem;
   outline: 0;
   border: 0;
   font-size: 1.2rem;
@@ -198,6 +198,11 @@ table {
   margin-bottom: 0.5rem;
   text-overflow: clip;
   transition: height 500ms;
+}
+
+.noEncontramos {
+  text-align: center;
+  border: solid 30px #F5F5F5;
 }
 
 .container__banner {

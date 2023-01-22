@@ -1,3 +1,5 @@
+@use '../abstracts' as a;
+
 .header__input {
     visibility: hidden;
     height: 0;
@@ -7,7 +9,7 @@
     
     &2 {
         visibility: visible;
-        height: 1.2rem;
+        height: 1.6rem;
         outline: 0;
         border: 0;
         font-size: 1.2rem;
@@ -16,4 +18,9 @@
         text-overflow: clip;
         transition: height 500ms;
     }
+}
+
+.noEncontramos {
+    text-align: center;
+    border: solid 30px a.$grey;
 }

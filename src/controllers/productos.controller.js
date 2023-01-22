@@ -1,4 +1,4 @@
-import { clientServices } from "../service/client-service.js"
+import { clientServices } from "../service/client-service.js";
 
 var isAdmin = false;
 var isMobile = false;
@@ -31,6 +31,14 @@ const crearNuevaTarjeta = (urlImagen, nombre, precio, id) => {
         window.location.href = `./editarProducto.html?id=${id}`
     })
     return tarjeta;
+}
+
+const loSentimos = () => {
+    const mensaje = document.createElement("p");
+    const contenido = `Lo sentimos, no encontramos nada X_X <br>Por favor, intenta nuevamente.`;
+    mensaje.innerHTML = contenido;
+    mensaje.classList.add("raleway700", "noEncontramos");
+    return mensaje;
 }
 
 
@@ -79,6 +87,27 @@ if (galeriaStarWars) {
     }).catch((error) => {
         console.log("Ocurrió un error con todosLosProductos() en las galerias del index. Error a continuación: " + error);
     })
+}
+
+//Si estoy en búsqueda, poblar con resultados de la búsqueda:
+const galeriaBusqueda = document.querySelector("[data-galeriaBusqueda]");
+if (galeriaBusqueda) {
+    var huboResultado = false;
+    clientServices.todosLosProductos().then((productos) => {
+        productos.forEach((producto) => {
+            if (producto.nombre.toLowerCase().includes(localStorage.busqueda)) {
+                const encontrado = crearNuevaTarjeta(producto.imagen, producto.nombre, producto.precio, producto.id);
+                galeriaBusqueda.appendChild(encontrado);
+                huboResultado = true;
+            }
+        });
+        if (!huboResultado) {
+            galeriaBusqueda.appendChild(loSentimos());
+        }
+    })
+    .catch((error) => {
+        console.log("Ocurrió un error con todosLosProductos() en galería de búsqueda. Error a continuación: " + error);
+    });  
 }
 
 

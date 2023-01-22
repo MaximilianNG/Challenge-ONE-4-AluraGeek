@@ -4,6 +4,7 @@ const botonLogin = document.querySelector("#botonLogin");
 const botonVerConsolas = document.querySelector("#botonVerconsolas");
 const botonBusqueda = document.querySelector("#botonBusqueda");
 const inputBusqueda = document.querySelector("#inputBusqueda");
+const formularioBusqueda = document.querySelector("[data-busqueda]");
 
 if (botonLogin) {
     botonLogin.addEventListener("click", goToLogin);
@@ -16,8 +17,15 @@ if (botonVerConsolas) {
 logoHeader.addEventListener("click", goToIndex);
 
 botonBusqueda.addEventListener("click", (e) => {
+    formularioBusqueda.classList.toggle("header__input2");
     inputBusqueda.classList.toggle("header__input2");
-    });
+});
+
+formularioBusqueda.addEventListener("submit", (evento) => {
+    evento.preventDefault();
+    localStorage.busqueda = inputBusqueda.value;
+    window.location.href = "./busqueda.html"
+})
 
 /**
  * Redirects to login.html
