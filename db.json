@@ -144,5 +144,11 @@
       "imagen": "./assets/products/diversos/producto-diversos5.png",
       "descripcion": "Un mando original para la consola XBOX One."
     }
+  ],
+  "mensajes": [
+    {
+      "nombre": "Martín",
+      "mensaje": "¿Aceptan tarjeta de crédito?"
+    }
   ]
 }

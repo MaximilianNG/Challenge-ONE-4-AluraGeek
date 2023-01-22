@@ -4,6 +4,13 @@ const todosLosProductos = () => {
     }  
 )};
 
+const productosStarWars = () => {
+    return fetch("http://localhost:3000/productos?categoria_like=star")
+    .then((respuesta) => {
+        return respuesta.json();
+    })
+}
+
 const crearProducto = (nombre, precio, categoria, imagen, descripcion) => {
     return fetch("http://localhost:3000/productos", {
         method: "POST",
@@ -38,6 +45,7 @@ const editarProducto = (nombre, categoria, imagen, descripcion, precio, id) => {
     
 export const clientServices = {
     todosLosProductos,
+    productosStarWars,
     crearProducto,
     eliminarProducto,
     detalleProducto,
